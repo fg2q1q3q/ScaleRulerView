@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <scalerulerview.zxl.com.mylibrary.RulerView
+        android:id="@+id/birthRulerView"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"/>
+
+    <scalerulerview.zxl.com.mylibrary.RulerView
+        android:id="@+id/heightRulerView"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        app:rv_danwei="公斤"
+        app:rv_item_cell_count="5"
+        app:rv_item_font_color="@color/colorAccent"
+        app:rv_item_font_size="24sp"
+        app:rv_rule_start="40"
+        app:rv_rule_end="200"
+        app:rv_rule_default_value="51"
+        app:rv_rule_default_cell="1"
+        app:rv_item_value="1"
+        app:rv_rule_color="#c9c9c9"
+        app:rv_value_font_color="@color/colorPrimary"
+        android:background="@android:color/white"/>
+
+</LinearLayout>
